@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>EREN TAYMAZ | Restaurant Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+  </head>
+  <body>
+    <!--  HEADER  -->
+    <!-- Header Başlangıcı -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Product</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>
+ 
+        <div class="buttons">
+          <button id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+          <button id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button id="menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <!-- Arama Çubuğu -->
+        <div class="search-form">
+          <input 
+          type="text" 
+          class="search-input" 
+          id="search-box" 
+          placeholder="Search Here">
+
+          <i class="fas fa-search"></i>
+        </div>
+
+        <!-- Sepet Tasarımı -->
+        <div class="cart-items-container active">
+          <div class="cart-item">
+              <i class="fa fa-times"></i>
+              <img src="images/menu-1.png" alt="menu">
+              <div class="content">
+                <h3>Sepetteki Ürün 01</h3>
+                <div class="price">$15.99/-</div>
+              </div>
+          </div>
+          <div class="cart-item">
+            <i class="fa fa-times"></i>
+            <img src="images/menu-2.png" alt="menu">
+            <div class="content">
+              <h3>Sepetteki Ürün 02</h3>
+              <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+          <i class="fa fa-times"></i>
+          <img src="images/menu-3.png" alt="menu">
+          <div class="content">
+            <h3>Sepetteki Ürün 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+        <i class="fa fa-times"></i>
+        <img src="images/menu-4.png" alt="menu">
+        <div class="content">
+          <h3>Sepetteki Ürün 04</h3>
+          <div class="price">$15.99/-</div>
+        </div>
+    </div>
+          <a href="#" class="btn">Sepete Göz At</a>
+        </div>
+    </header>
+    <!-- Header Bitiş -->
+
+    <!-- HOME PAGE -->
+    <!-- Home Başlangıcı -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>EXPRESS HOME DELIVERY</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+         Laudantium, reprehenderit.
+      </p>
+      <a href="#" class="btn">Order Now</a>
+      </div>
+    </section>
+    <!-- Home bitiş-->
+    
+    <!-- MENU -->
+    <!-- Menü başlangıç -->
+    <section class="menu" id="menu">
+      <h1 class="heading"> Our <span>Menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-1.png" 
+            alt="menu">
+            <span class="menu-category">PIZZA</span>
+            <h3>6 Mini Pizzas</h3>
+            <div class="price">$104.99 <span>119.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-2.png" 
+            alt="menu">
+            <span class="menu-category">BURGER</span>
+            <h3>5 Mini Burgers</h3>
+            <div class="price">$99.99 <span>109.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-3.png" 
+            alt="menu">
+            <span class="menu-category">PIZZA</span>
+            <h3>2 Mixed Pizzas</h3>
+            <div class="price">$49.99 <span>59.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-4.png" 
+            alt="menu">
+            <span class="menu-category">BURGER</span>
+            <h3>3 Meatball Burgers</h3>
+            <div class="price">$79.99 <span>99.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menü Bitiş -->
+
+    <!-- PRODUCTS -->
+
+    <!-- Products Başlangıcı -->
+      <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <div class="box-head">
+              <span class="title">MINI BURGER</span>
+              <a href="#" class="name">Bacon Burger</a>
+            </div>
+              <div class="image">
+                <img src="images/product-1.png" alt="">  
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="price">$6.00</b>
+                <span class="amount">110gr / 300 Cal</span>
+              </div>
+              <div class="product-btn">
+                <a href="#">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-head">
+              <span class="title">MINI BURGER</span>
+              <a href="#" class="name">Bacon Burger</a>
+            </div>
+              <div class="image">
+                <img src="images/product-2.png" alt="">  
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="price">$6.00</b>
+                <span class="amount">110gr / 300 Cal</span>
+              </div>
+              <div class="product-btn">
+                <a href="#">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box dark-bg">
+            <div class="box-head">
+              <span class="title">MINI BURGER</span>
+              <a href="#" class="name">Bacon Burger</a>
+            </div>
+              <div class="image">
+                <img src="images/dark-product.jpg" alt="">  
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="price">$6.00</b>
+                <span class="amount">110gr / 300 Cal</span>
+              </div>
+              <div class="product-btn">
+                <a href="#">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Products Bitiş -->
+    
+      <!-- ABOUT -->
+
+      <!-- About Başlangıç -->
+
+        <section class="about" id="about">
+          <h1 class="heading">About <span>Us</span></h1>
+          <div class="row">
+            <div class="image">
+              <img src="images/about.jpg" alt="about">
+            </div>
+            <div class="content">
+              <h3>Burgerlerimizin Gizli Tarifi Nedir?</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Nemo iusto sint voluptas, illum asperiores aperiam. Assumenda iste corporis optio porro?</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Nemo iusto sint voluptas, illum asperiores aperiam. Assumenda iste corporis optio porro?</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Nemo iusto sint voluptas, illum asperiores aperiam. Assumenda iste corporis optio porro?</p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </section>
+
+      <!-- About Bitiş -->
+
+    <!-- REVIEW(Müşteri Yorumları) -->
+  
+  <!-- Review Başlangıç -->
+        <section class="review" id="review">
+          <h1 class="heading"> Customer's <span>Review</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="images/quote.png" alt="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Deleniti voluptas nesciunt laborum modi.
+              Expedita excepturi atque dolorem hic, a rerum!
+            </p>
+            <img src="images/avatar-1.png" alt="avatar" class="user">
+            <h3>Eren Taymaz</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/quote.png" alt="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Deleniti voluptas nesciunt laborum modi.
+              Expedita excepturi atque dolorem hic, a rerum!
+            </p>
+            <img src="images/avatar-2.png" alt="avatar" class="user">
+            <h3>Eren Taymaz</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/quote.png" alt="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Deleniti voluptas nesciunt laborum modi.
+              Expedita excepturi atque dolorem hic, a rerum!
+            </p>
+            <img src="images/avatar-3.png" alt="avatar" class="user">
+            <h3>Eren Taymaz</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+          </div>
+          
+        </div>
+        </section>
+  <!-- Review Bitiş -->
+  
+    <!-- CONTACT -->
+
+    <!-- Contact Başlangıç -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Contact <span>Us</span></h1>
+      <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12735.696755560963!2d35.34889155953651!3d37.05928973877443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15288dd594987ed3%3A0x56ee3443510a3144!2s%C3%87ukurova%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1691577714610!5m2!1str!2str"
+         loading="lazy" 
+         referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <form>
+          <h3>İletişime Geç</h3>
+          <div class="inputBox">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="İsminizi Giriniz.">
+          </div>
+          <div class="inputBox">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="Email Adresinizi Giriniz.">
+          </div>
+          <div class="inputBox">
+            <i class="fa fa-phone"></i>
+            <input type="number" placeholder="Telefon Numaranızı Giriniz.">
+          </div>
+          <input type="submit" class="btn" class="İletişime Geç">
+        </form>
+      </div>
+    </section>
+    <!-- Contact Bitiş -->
+
+    <!-- BLOG -->
+
+  <!-- Blog Başlangıç -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">-_-<span>Blog</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="#" class="title">Burger nasıl yapılır? </a>
+            <span>Admin / 9 Ağustos, 2023</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quas?</p>
+            <a href="#" class="btn">Dahasına Göz at</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="#" class="title">Burger nasıl yapılır? </a>
+            <span>Admin / 9 Ağustos, 2023</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quas?</p>
+            <a href="#" class="btn">Dahasına Göz at</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="#" class="title">Burger nasıl yapılır? </a>
+            <span>Admin / 9 Ağustos, 2023</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quas?</p>
+            <a href="#" class="btn">Dahasına Göz at</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Blog Bitiş -->
+
+      <!-- FOOTER -->
+
+    <!-- Footer Başlangıç -->
+
+    <section class="footer">
+      <div class="search">
+        <input type="text" 
+        class="search-input" placeholder="Ara">
+        <button class="btn btn-primary">Ara</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Product</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blogs.html">Blogs</a>
+      </div>
+
+      <div class="credit">
+        © 2023 | <span>Eren Taymaz</span> - All Rights Reserved
+      </div>
+    </section>
+
+    <!-- Footer Bitiş -->
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
